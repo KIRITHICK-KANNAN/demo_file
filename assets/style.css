@@ -1,0 +1,402 @@
+/* Header Section */
+.head {
+  background-image: url(header-bg.png);
+  color: white;
+  text-align: center;
+  padding: auto;
+  margin: collapse;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.home {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.image {
+  display: flex;
+  gap: 10px;
+}
+.download {
+  background-color: blue;
+  color: aliceblue;
+  display: flex;
+}
+
+.container {
+  max-width: 1200px;
+  padding-left: 0;
+  padding-right: 0%;
+  margin: 0 auto;
+}
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0%;
+  width: 100%;
+}
+
+.left{
+  float: left;
+}
+.right{
+  display: flex;
+      justify-content: end;
+      align-items: center;
+      text-align: center;
+}
+.right ul{
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.right ul li{
+  list-style-type: none;
+  padding: 0.5rem 1rem;
+}
+.header-menu
+{
+  padding: 2rem 0;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem 1.8rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+}
+.search_icon_section
+{
+  position: relative;
+  width: 100%;
+  max-width: 35rem;
+  margin: 0 auto;
+}
+.search_icon
+{
+  position: absolute;
+  left: 0.5rem;
+  top: 0.5rem;
+}
+.height-20
+{
+  height: 8rem;
+}
+.height-10
+{
+  height: 2rem;
+}
+
+/* Brands Section */
+.brand_logo
+{
+padding: 2rem;
+}
+.logo_slider ul{
+      display: flex;
+      padding: 0;
+      margin: 1rem 0;
+      align-items: center;
+      text-align: center;
+      justify-content: space-between;
+}
+.logo_slider ul li{
+  list-style-type: none;
+  padding: 0.5rem 1rem;
+}
+.menu_left{
+  display: flex;
+      justify-content: start;
+      align-items: center;
+      text-align: center;
+}
+.menu_left ul{
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.menu_left ul li{
+  list-style-type: none;
+  padding: 0.5rem 1rem;
+}
+.header-menuu
+{
+  display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: space-between;
+}
+.tab{
+  display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: left;
+      margin: 2rem 3rem;
+}
+.one {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+.two {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+.three {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+/* category_logo Section */
+.category_logo
+{
+  padding: 2rem 0;
+}
+.logo_slider
+{
+  position: relative;
+}
+.logo_slider .team {
+    position: absolute;
+    top: 2rem;
+    color: #fff;
+    padding-left: 3rem;
+}
+.logo_slider .card img{
+  border-radius: 1rem;
+}
+.why-us-section
+{
+  display: flex;
+  padding: 2rem 0;
+  justify-content: space-between;
+}
+.why-right span
+{
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+.why-left
+{
+
+}
+/* Download Section */
+.download_section
+{
+  padding: 2rem 0;
+}
+.pricing {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.plan {
+  background: blue;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  border: 2px solid white;
+  color: #fff;
+}
+.plan h3 {
+  font-size: 22px;
+}
+.plan p {
+  margin: 10px 0;
+}
+.button {
+  background: white;
+  color: #002db3;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.text-center
+{
+  text-align: center;
+  color: #fff;
+}
+
+/* Test section */
+.test-section
+{
+  padding: 2rem 0 8rem 0;
+}
+.highlight {
+  color: #ffcc00;
+  font-weight: bold;
+}
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+.testimonial {
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+.testimonial p{
+  margin-top: 1rem;
+}
+.quote {
+  font-size: 4rem;
+  color: #ffcc00;
+  line-height: 20px;
+  transform: rotate(180deg);
+  margin-bottom: 2rem;
+}
+.testimonial img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.name {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.role {
+  font-size: 14px;
+  color: #555;
+}
+.footer-section
+{
+  padding: 2rem 0;
+  background: #222;
+}
+.foot-two ul
+{
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.foot-two ul li{
+  list-style-type: none;
+  color: #fff;
+  font-size: 1rem;
+  line-height: 2;
+}
+.bottom-footer
+{
+  display: flex;
+  justify-content: space-between;
+}
+.foot-one p{
+  color: #fff;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.banner_head{
+  font-size: 3rem;
+}
+.banner_head_para
+  {
+    font-size: 1.5rem; 
+  }
+
+@media (max-width: 767px) 
+{
+  .logo_slider 
+  {
+    overflow: scroll;
+  }
+  .why-us-section, .bottom-footer
+  {
+    display: block;
+  }
+  .menu_left ul
+  {
+    display: block;
+  }
+  .header-menuu .right{
+    display: none;
+  }
+  .header-menuu
+  {
+    justify-content: center;
+  }
+  .tab
+  {
+    margin: 0;
+  }
+  .logo_slider ul {
+    display: contents;
+  }
+  .plan
+  {
+    width: 85%;
+    margin: 0.5rem 0;
+  }
+  .why-right span {
+    display: contents;
+  }
+  .pricing {
+    display: contents;
+  }
+  .search_icon_section {
+    max-width: 15rem;
+    margin: unset;
+    width: 100%;
+    display: flow;
+  }
+  #header, .category_logo,.download_section, .test-section, .footer-section 
+  {
+    padding: 2rem;
+  }
+  .header
+  {
+    padding: 0.5rem;
+  }
+  .two {
+    white-space: nowrap;
+    width: 50px;
+    overflow: hidden;
+    text-overflow: clip;
+  }
+  .right ul li
+  {
+    padding: 0.5rem;
+  }
+  .three
+  {
+    display: none;
+  }
+  .header-menu .right{
+    margin: 2rem 0 0;
+    display: block;
+  }
+  .mobile_view
+  {
+    display: none;
+  }
+  .banner_head{
+    font-size: 2rem;
+  }
+  .banner_head_para
+  {
+    font-size: 1rem; 
+  }
+}
